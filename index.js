@@ -1,5 +1,11 @@
 ﻿'use strict';
 
+/**
+ * Deep clone object
+ * @param {object} object Object for cloning
+ * @returns {object} Return deep clone object
+ */
+
 function clone( item = null ) {
     /**
 	* check null and undefined value
